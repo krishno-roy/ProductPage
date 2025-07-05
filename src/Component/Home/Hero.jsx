@@ -19,7 +19,7 @@ const Hero = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between px-4 ">
         <div className="w-full md:w-1/2 relative">
           <div className="absolute pt-10">
-            <IoReorderThreeOutline className="bg-gray-400  text-white font-2xl h-15 w-15 rounded-full" />
+            <IoReorderThreeOutline className="bg-gray-400  text-white font-xl h-8 w-8 rounded-full" />
           </div>
           <img src={HeroImage} alt="Hero" className="h-screen mx-auto" />
         </div>
