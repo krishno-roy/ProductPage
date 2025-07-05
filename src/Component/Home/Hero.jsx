@@ -37,10 +37,10 @@ const Hero = () => {
             through carefully crafted code and user-centric design.
           </p>
           <div className="flex gap-5">
-            <button className="border-yellow-600 px-6 py-4 border-4 p-2 rounded-full text-2xl hover:bg-yellow-600 font-semibold bg-gray-400/20 duration-200 uppercase">
+            <button className="border-yellow-600 px-6 py-2 border-4 p-2 rounded-full text-xl hover:bg-yellow-600 font-semibold bg-gray-400/20 duration-200 uppercase">
               More About Me
             </button>
-            <button className="border-yellow-600 px-6 py-4 border-4 p-2 rounded-full text-2xl font-semibold hover:bg-yellow-600  duration-200 uppercase">
+            <button className="border-yellow-600 px-6 py-2 border-4 p-2 rounded-full text-xl font-semibold hover:bg-yellow-600  duration-200 uppercase">
               Portfolio
             </button>
           </div>
