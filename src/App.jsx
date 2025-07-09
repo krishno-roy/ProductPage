@@ -8,7 +8,7 @@ import WorkFlow from './Component/Home/WorkFlow'
 import FAQ from './Component/Home/FAQ'
 import Footer from './Component/Footer'
 import Contact from './Component/Home/Contact'
-import Blogsection from './Component/Home/Blogsection'
+import Blog from './Component/Home/Blog'
 
 const App = () => {
   return (
@@ -20,7 +20,7 @@ const App = () => {
    <Service/>
    <WorkFlow/>
    <FAQ/>
-   <Blogsection/>
+   <Blog/>
    <Contact/>
    <Footer/>
     </div>

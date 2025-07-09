@@ -3,7 +3,7 @@ import Img1 from "../../assets/07.png";
 import Img2 from "../../assets/08.png";
 import Img3 from "../../assets/09.png";
 
-const Blogsection = () => {
+const Blog = () => {
   const blogs = [
     {
       id: 1,
@@ -66,4 +66,4 @@ const Blogsection = () => {
   );
 };
 
-export default Blogsection;
+export default Blog;
