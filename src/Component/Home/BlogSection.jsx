@@ -2,7 +2,6 @@ import React from "react";
 import Img1 from "../../assets/07.png"; // Replace with your actual images
 import Img2 from "../../assets/08.png";
 import Img3 from "../../assets/09.png";
-import { Link } from "react-router"; // If you are using React Router
 
 const Blogsection = () => {
   const blogs = [
