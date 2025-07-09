@@ -2,6 +2,7 @@ import React from "react";
 import Img1 from "../../assets/07.png"; 
 import Img2 from "../../assets/08.png";
 import Img3 from "../../assets/09.png";
+import { Link } from "react-scroll";
 
 const Blog = () => {
   const blogs = [
