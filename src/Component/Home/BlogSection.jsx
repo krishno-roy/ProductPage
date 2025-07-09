@@ -4,7 +4,7 @@ import Img2 from "../../assets/08.png";
 import Img3 from "../../assets/09.png";
 import { Link } from "react-router"; // If you are using React Router
 
-const BlogSection = () => {
+const Blogsection = () => {
   const blogs = [
     {
       id: 1,
@@ -38,7 +38,6 @@ const BlogSection = () => {
         <h2 className="text-3xl md:text-5xl font-bold mb-4">
           Explore Our Latest News & Blog
         </h2>
-        
       </div>
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
         {blogs.map((blog) => (
@@ -68,4 +67,4 @@ const BlogSection = () => {
   );
 };
 
-export default BlogSection;
+export default Blogsection;

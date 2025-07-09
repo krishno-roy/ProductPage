@@ -1,7 +1,6 @@
 import React from 'react'
 import ContactImage from "../../assets/contact.png";
 import { LuBellDot } from 'react-icons/lu';
-import { IoArrowForwardCircle } from 'react-icons/io5';
 import { FaArrowRight } from 'react-icons/fa';
 
 const Contact = () => {
