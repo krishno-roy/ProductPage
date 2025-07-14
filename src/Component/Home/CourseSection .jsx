@@ -1,7 +1,10 @@
 import React from "react";
-import ServiceImage1 from "../../assets/image-13.png";
+import ServiceImage1 from "../../assets/image-6 (1).png";
 import ServiceImage2 from "../../assets/image-13.png";
 import ServiceImage3 from "../../assets/image-10.png";
+import ServiceImage4 from "../../assets/image-8 (1).png";
+import ServiceImage5 from "../../assets/image-12 (1).png";
+import ServiceImage6 from "../../assets/image-13.png";
 
 const courses = [
   {
@@ -51,7 +54,7 @@ const courses = [
   },
   {
     id: 4,
-    title: "Web Development",
+    title: "Data Science and AI",
     description:
       "Crafting innovative, responsive websites for exceptional user experiences and functionality.",
     instructor: "Joan Wallace",
@@ -61,12 +64,12 @@ const courses = [
     sections: 160,
     hours: 60,
     students: 30,
-    image: ServiceImage3,
+    image: ServiceImage4,
     bgColor: "bg-[#fee4df]",
   },
   {
     id: 5,
-    title: "Web Development",
+    title: "Cloud Computing",
     description:
       "Crafting innovative, responsive websites for exceptional user experiences and functionality.",
     instructor: "Joan Wallace",
@@ -76,12 +79,12 @@ const courses = [
     sections: 160,
     hours: 60,
     students: 30,
-    image: ServiceImage3,
+    image: ServiceImage5,
     bgColor: "bg-[#fee4df]",
   },
   {
     id: 6,
-    title: "Web Development",
+    title: "Mobile App Development",
     description:
       "Crafting innovative, responsive websites for exceptional user experiences and functionality.",
     instructor: "Joan Wallace",
@@ -91,7 +94,7 @@ const courses = [
     sections: 160,
     hours: 60,
     students: 30,
-    image: ServiceImage3,
+    image: ServiceImage6,
     bgColor: "bg-[#fee4df]",
   },
 ];
