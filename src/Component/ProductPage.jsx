@@ -68,8 +68,8 @@ const ProductPage = () => {
     const half = product.rating % 1 !== 0;
 
     for (let i = 0; i < full; i++)
-      stars.push(<IoStar key={i} className="text-yellow-500" />);
-    if (half) stars.push(<IoStarHalf key="half" className="text-yellow-500" />);
+      stars.push(<IoStar key={i} className="text-black" />);
+    if (half) stars.push(<IoStarHalf key="half" className="text-black" />);
     return stars;
   };
 
@@ -109,7 +109,7 @@ const ProductPage = () => {
 
         {/* Right - Product Info */}
         <div>
-          <div className="flex items-center text-yellow-500 mb-2 space-x-1 text-sm flex-wrap">
+          <div className="flex items-center text-black mb-2 space-x-1 text-sm flex-wrap">
             {renderStars()}
             <p className="text-gray-600 font-semibold">
               4.7 / 5.0 basierend auf 9465+ Bewertungen
@@ -147,10 +147,10 @@ const ProductPage = () => {
                     setSelectedColor(color.id);
                     setMainImageIndex(0);
                   }}
-                  className={`w-12 h-12 md:w-16 md:h-16  border-2 cursor-pointer ${
+                  className={`w-12 h-12 md:w-16 md:h-16 border-b-4 border-2 cursor-pointer ${
                     selectedColor === color.id
                       ? "border-black"
-                      : "border-gray-300"
+                      : "border-transparent"
                   }`}
                 />
               ))}
@@ -160,15 +160,15 @@ const ProductPage = () => {
           {/* Sizes */}
           <div className="mb-6">
             <h3 className="font-semibold mb-2">Größe:</h3>
-            <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-7 gap-2">
+            <div className="grid grid-cols-4 sm:grid-cols-5 md:grid-cols-7 gap-2 ">
               {sizes.map((size) => (
                 <button
                   key={size}
                   onClick={() => setSelectedSize(size)}
-                  className={`py-2 text-sm border  ${
+                  className={`py-2 px-2 text-sm border border-black border-b-4 ${
                     selectedSize === size
                       ? "text-black border-black"
-                      : "bg-white text-black border-gray-300"
+                      : "bg-white text-black border-transparent"
                   }`}
                 >
                   {size}
