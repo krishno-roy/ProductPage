@@ -147,7 +147,7 @@ const ProductPage = () => {
                     setSelectedColor(color.id);
                     setMainImageIndex(0);
                   }}
-                  className={`w-12 h-12 md:w-16 md:h-16 rounded-lg border-2 cursor-pointer ${
+                  className={`w-12 h-12 md:w-16 md:h-16  border-2 cursor-pointer ${
                     selectedColor === color.id
                       ? "border-black"
                       : "border-gray-300"
@@ -165,7 +165,7 @@ const ProductPage = () => {
                 <button
                   key={size}
                   onClick={() => setSelectedSize(size)}
-                  className={`py-2 text-sm border rounded-lg ${
+                  className={`py-2 text-sm border  ${
                     selectedSize === size
                       ? "text-black border-black"
                       : "bg-white text-black border-gray-300"
