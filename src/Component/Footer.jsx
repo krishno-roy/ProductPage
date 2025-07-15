@@ -29,7 +29,7 @@ const Footer = () => {
         </div>
 
         {/* Links */}
-        <div className="pl-30">
+        <div className="md:pl-30">
           <h2 className="text-lg font-semibold mb-2 ">Info</h2>
           <ul className="space-y-4 text-[16px] ">
             <li>
